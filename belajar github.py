@@ -7,5 +7,15 @@ print(
 
 angka1=int(input("Masukan angka pertama: "))
 angka2=int(input("Masukan angka kedua: "))
-hasil_penjumlahan=angka1+angka2
-print("Hasilnya adalah:",hasil_penjumlahan))
+opsi=input("Pilih operasi (+, -, *, /): ")
+if opsi == "+":
+    hasil = angka1 + angka2
+elif opsi == "-":
+    hasil = angka1 - angka2
+elif opsi == "*":
+    hasil = angka1 * angka2
+elif opsi == "/":
+    hasil = angka1 / angka2
+else:
+    hasil=print("Opsi tidak valid,silakan pilih operasi yang benar")
+print("hasilnya adalah:", hasil)
