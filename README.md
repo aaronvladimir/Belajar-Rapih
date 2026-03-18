@@ -1,2 +1,12 @@
-# Belajar-Rapih
-halo, jadi gw disini akan belajar upload github via terminal VSCODE jadi biar reponya readable...terimakasih
+# Simple Calculator
+
+Program kalkulator sederhana menggunakan Python
+
+## Fitur:
+- Penjumlahan
+- Pengurangan
+- Perkalian
+- Pembagian
+
+## Cara pakai:
+python calculator.py
