@@ -7,5 +7,5 @@ print(
 
 angka1=int(input("Masukan angka pertama: "))
 angka2=int(input("Masukan angka kedua: "))
-
-print("Terimakasih Sudah Input"))
+hasil_penjumlahan=angka1+angka2
+print("Hasilnya adalah:",hasil_penjumlahan))
