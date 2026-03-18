@@ -15,7 +15,10 @@ elif opsi == "-":
 elif opsi == "*":
     hasil = angka1 * angka2
 elif opsi == "/":
-    hasil = angka1 / angka2
+    if angka2 == 0:
+        hasil=print("Error: Pembagian dengan nol tidak diperbolehkan.")
+    else:
+        hasil = angka1 / angka2
 else:
     hasil=print("Opsi tidak valid,silakan pilih operasi yang benar")
 print("hasilnya adalah:", hasil)
